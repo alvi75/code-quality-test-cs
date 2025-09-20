@@ -1,0 +1,1 @@
+1. Open a new instance of the S3Resources class.

@@ -1,0 +1,1 @@
+1. **Understand the Task**:partsPart of the OpenAPI SpecificationPart of the OpenAPI specification. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

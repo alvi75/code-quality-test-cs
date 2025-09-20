@@ -1,0 +1,2 @@
+public ModifyDBitMaskRequest(): options);
+}

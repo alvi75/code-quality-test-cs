@@ -1,0 +1,1 @@
+1. **Understand the Task**: Revert to the previous commit.

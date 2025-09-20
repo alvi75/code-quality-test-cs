@@ -1,0 +1,1 @@
+1. **Understand the Task**: Person TrackingTask is an example of a simple task that you can use to test your code—no input parameters.

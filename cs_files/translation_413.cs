@@ -1,0 +1,2 @@
+public GetPhotoIdRequest(): baseId = null;
+}

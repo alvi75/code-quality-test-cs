@@ -1,0 +1,1 @@
+1. **Understand the Task**: Invoke the appropriate AWSMedia function for the target language. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

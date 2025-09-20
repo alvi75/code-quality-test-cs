@@ -1,0 +1,1 @@
+1. Open the source language file (Java in this case) and make sure that the code—no comments or unnecessary blank lines.

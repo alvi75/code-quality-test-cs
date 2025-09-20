@@ -1,0 +1,4 @@
+public DeleteDBSnapshotSnapshot(DeleteDBSnapshotResponse DeleteDBSnapshotResponseUnmarshaller.Instance;
+options.ResponseUnmarshaller = DeleteDBSnapshotResponseUnmarshaller.Instance;
+return Invoke<DeleteDBInstanceSnapshotResponse>(request, options);
+}

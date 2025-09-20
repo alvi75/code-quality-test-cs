@@ -1,0 +1,2 @@
+public GetUserSourceAccountRequest(): baseAccountAccountSourceAccountRequest(): options);
+}

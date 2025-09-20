@@ -1,0 +1,1 @@
+1. **Understand the Task**:Schedules are used to run a task at a specific time interval.

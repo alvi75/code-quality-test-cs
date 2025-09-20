@@ -1,0 +1,1 @@
+1. **Understand the Task**: With the given code—no input. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

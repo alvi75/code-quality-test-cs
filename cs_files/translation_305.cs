@@ -1,0 +1,2 @@
+1. **Understand the Source Language**: Rescorer is a common pattern.Rescor rescorer = GetRescorer(queryTree){
+    2. **Translate Code from the Source Language to the Target Language. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

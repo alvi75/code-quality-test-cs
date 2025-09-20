@@ -1,0 +1,1 @@
+1. **Understand the Source Language**: processor. Translate code from the source language to the target language. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.
