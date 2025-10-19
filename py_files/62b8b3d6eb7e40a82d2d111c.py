@@ -1,1 +1,0 @@
-SUMMARY: Normalize a list of declarations . DONE

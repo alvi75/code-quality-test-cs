@@ -1,1 +1,0 @@
-SUMMARY: Validate a given inventory . DONE
