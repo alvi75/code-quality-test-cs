@@ -1,1 +1,0 @@
-1. Open the source language file (e.g., src/main/java/org/apache/hadoop/hdfs/DFSTestUtil.java).

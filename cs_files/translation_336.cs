@@ -1,1 +1,0 @@
-1. **Understand the Source Language**: Update the function to reflect the target language. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

@@ -1,4 +1,0 @@
-public virtual CheckDomainCheckLayerResponse CheckDNSCheckLayerResponseUnmarshaller.Instance;
-options.ResponseUnmarshaller = CheckDomainCheckLayerCheckLayerCheckLayerCheckStatusResponseUnmarshaller.Instance;
-return Invoke<CheckLayerCheckLayerCheckStatusResponse>(request, options);
-}

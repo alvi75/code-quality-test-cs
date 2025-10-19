@@ -1,4 +1,0 @@
-public CreateLoadBalancerRequest(string loadBalancerBalancerResponseUnmarshaller.Instance;
-options.ResponseUnmarshaller = CreateLoadBalancerRequestMarshaller.Instance;
-return Invoke<CreateLoadBalancerRequest>(request, options);
-}

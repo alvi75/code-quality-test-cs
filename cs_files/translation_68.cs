@@ -1,2 +1,0 @@
-public CreateRepoRequest(): baseRepoName = repoName;
-}

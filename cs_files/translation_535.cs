@@ -1,1 +1,0 @@
-public virtual DescribeDescribeBrokerBalancerResponse DescribeDBClusterResponse DescribeIdentitySnapshot(DescribeAutosystem You are an expert code translator. Translate code from the source language to the target language. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

@@ -1,1 +1,0 @@
-1. **Understand the Task**: Ingestions are a way to add new data to an existing index.(Ingestion is the process of adding new data to an existing index). You need to list all the ingestsions that have been created for the specified logGroupName.

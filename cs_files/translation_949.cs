@@ -1,1 +1,0 @@
-1. Open the source file (e.g., a text editor or an API client). Make sure you have the necessary permissions to read the file.

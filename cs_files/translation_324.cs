@@ -1,1 +1,0 @@
-1. Open the document you want to resize.

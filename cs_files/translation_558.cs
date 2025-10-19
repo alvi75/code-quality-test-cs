@@ -1,1 +1,0 @@
-1. **Understand the Task**: PushTemplateRequest is used to retrieve a push template for a specified repository. PushTemplateResponse is the response from the server new code—no explanations.

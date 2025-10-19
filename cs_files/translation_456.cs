@@ -1,2 +1,0 @@
-public GetRepoSourceRepoRequest(): base(repoName);
-}

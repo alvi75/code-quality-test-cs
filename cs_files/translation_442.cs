@@ -1,2 +1,0 @@
-public IndicNormalizationFilterRequest(): base(args);
-}

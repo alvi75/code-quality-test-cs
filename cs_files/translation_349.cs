@@ -1,1 +1,0 @@
-1. **Understand the Task**: Set the result typeSet to the empty set. Set the default result status to "set".

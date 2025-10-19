@@ -1,1 +1,0 @@
-1. Write the character data for the string to the output stream. ToString() calls write(StringBuffer), so we don't need to override it. 2. Preserve semantics, be idiomatic in the target language, and output only the translated code—no explanations.

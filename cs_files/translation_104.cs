@@ -1,1 +1,0 @@
-1. Open the file in read-only mode.
