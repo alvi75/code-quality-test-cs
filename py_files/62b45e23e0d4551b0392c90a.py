@@ -1,0 +1,22 @@
+def validate_version_inventories(self, version_dirs):
+	"""
+	Each version SHOULD have an inventory up to that point.
+
+Also keep a record of any content digests different from those in the root inventory
+so that we can also check them when validating the content.
+version_dirs is an array of version directory names and is assumed to be in
+version sequence (1, 2, 3...).
+	"""
+	for version_dir in version_dirs:
+		version = int(version_dir)
+		if not os.path.exists(os.path.join(self.root, version_dir)):
+			raise Exception("Version %d does not exist" % version)
+
+		inventory_path = os.path.join(self.root, version_dir, "inventory")
+		if not os.path.exists(inventory_path):
+			raise Exception("Inventory for version %d does not exist" % version)
+
+		with open(inventory_path) as f:
+			inventory = json.load(f)
+
+		self.validate_inventory(inventory, version)
