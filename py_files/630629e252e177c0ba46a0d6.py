@@ -1,0 +1,1 @@
+SUMMARY: Retrieve a remote Diaspora host - meta document . DONE

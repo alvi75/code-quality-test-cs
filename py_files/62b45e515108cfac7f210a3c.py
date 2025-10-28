@@ -1,0 +1,41 @@
+def initialize(self):
+	"""
+	Create and initialize a new OCFL storage root.
+	"""
+	if not self.root:
+		self.root = OCFLStorageRoot(
+			self.config,
+			self.storage_root,
+			self.storage_root_path,
+			self.storage_root_url,
+			self.storage_root_user,
+			self.storage_root_password,
+			self.storage_root_token,
+			self.storage_root_token_file,
+			self.storage_root_token_path,
+			self.storage_root_token_type,
+			self.storage_root_token_expires_at,
+			self.storage_root_token_expires_at_file,
+			self.storage_root_token_expires_at_path,
+			self.storage_root_token_expires_at_type,
+			self.storage_root_token_expires_at_expires_at,
+			self.storage_root_token_expires_at_expires_at_file,
+			self.storage_root_token_expires_at_expires_at_path,
+			self.storage_root_token_expires_at_expires_at_type,
+			self.storage_root_token_expires_at_expires_at_expires_at,
+			self.storage_root_token_expires_at_expires_at_expires_at_file,
+			self.storage_root_token_expires_at_expires_at_expires_at_path,
+			self.storage_root_token_expires_at_expires_at_expires_at_type,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_file,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_path,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_type,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_file,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_path,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_type,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_expires_at,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_expires_at_file,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_expires_at_path,
+			self.storage_root_token_expires_at_expires_at_expires_at_expires_at_expires_at_expires_at_type,
+			self.storage_root_token_ex
