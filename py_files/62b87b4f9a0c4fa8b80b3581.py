@@ -1,1 +1,0 @@
-SUMMARY: Return or set the scale of this histogram . DONE
