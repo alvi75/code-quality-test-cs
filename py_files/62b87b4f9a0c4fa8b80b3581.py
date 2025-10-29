@@ -1,0 +1,1 @@
+SUMMARY: Scale the histogram . DONE
