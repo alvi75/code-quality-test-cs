@@ -1,1 +1,0 @@
-SUMMARY: Validate that all versions in version_dirs have the same inventory . DONE
