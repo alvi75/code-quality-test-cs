@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "62b87af69a0c4fa8b80b351a",
+    "name": "is_fill_compute_el",
+    "project": "ynikitenko/lena",
+    "docstring": "Object contains executable methods 'fill' and 'compute'."
+  },
+  {
+    "_id": "62b463153879012d1948149c",
+    "name": "select_filenames_by_prefix",
+    "project": "scieloorg/packtools",
+    "docstring": "Get files which belongs to a document package.\n\nRetorna os arquivos da lista `files` cujos nomes iniciam com `prefix`\n\nParameters\n----------\nprefix : str\n    Filename prefix\nfiles : str list\n    Files paths\nReturns\n-------\nlist\n    files paths which basename files matches to prefix"
+  },
+  {
+    "_id": "62b45df15108cfac7f2109dc",
+    "name": "status_str",
+    "project": "zimeon/ocfl-py",
+    "docstring": "Return string of validator status, with optional prefix."
+  },
+  {
+    "_id": "62b8b4c1eb7e40a82d2d1139",
+    "name": "verifyClass",
+    "project": "pexip/os-zope",
+    "docstring": "Verify that the *candidate* might correctly provide *iface*."
+  },
+  {
+    "_id": "62ece4982e6aefcf4aabbd63",
+    "name": "is_none_string",
+    "project": "openstack/cinder",
+    "docstring": "Check if a string represents a None value."
+  },
+  {
+    "_id": "6306299052e177c0ba469fe8",
+    "name": "check_sender_and_entity_handle_match",
+    "project": "jaywink/federation",
+    "docstring": "Ensure that sender and entity handles match.\n\nBasically we've already verified the sender is who they say when receiving the payload. However, the sender might\nbe trying to set another author in the payload itself, since Diaspora has the sender in both the payload headers\nAND the object. We must ensure they're the same."
+  },
+  {
+    "_id": "62e60723d76274f8a4026b75",
+    "name": "round_half_to_even",
+    "project": "neo4j/neo4j-python-driver",
+    "docstring": ">>> round_half_to_even(3)\n    3\n    >>> round_half_to_even(3.2)\n    3\n    >>> round_half_to_even(3.5)\n    4\n    >>> round_half_to_even(3.7)\n    4\n    >>> round_half_to_even(4)\n    4\n    >>> round_half_to_even(4.2)\n    4\n    >>> round_half_to_even(4.5)\n    4\n    >>> round_half_to_even(4.7)\n    5\n\n:param n:\n:return:"
+  },
+  {
+    "_id": "62b8982f755ee91dce50a241",
+    "name": "normalized",
+    "project": "pexip/os-python-dateutil",
+    "docstring": "Return a version of this object represented entirely using integer\nvalues for the relative attributes.\n\n>>> relativedelta(days=1.5, hours=2).normalized()\nrelativedelta(days=+1, hours=+14)\n\n:return:\n    Returns a :class:`dateutil.relativedelta.relativedelta` object."
+  },
+  {
+    "_id": "62ece4992e6aefcf4aabbd88",
+    "name": "make_array",
+    "project": "sunpy/radiospectra",
+    "docstring": "Function to create an array with shape and dtype.\n\nParameters\n----------\nshape : tuple\n    shape of the array to create\ndtype : `numpy.dtype`\n    data-type of the array to create"
+  },
+  {
+    "_id": "6306298b52e177c0ba469fdc",
+    "name": "xml_children_as_dict",
+    "project": "jaywink/federation",
+    "docstring": "Turn the children of node <xml> into a dict, keyed by tag name.\n\nThis is only a shallow conversation - child nodes are not recursively processed."
+  },
+  {
+    "_id": "6305f9991d275c6667163c50",
+    "name": "set_cut_chars",
+    "project": "MozillaSecurity/lithium",
+    "docstring": "Set the bytes used to delimit slice points.\n\nArgs:\n    before: Split file before these delimiters.\n    after: Split file after these delimiters."
+  },
+  {
+    "_id": "62b87b099a0c4fa8b80b3538",
+    "name": "is_fill_request_el",
+    "project": "ynikitenko/lena",
+    "docstring": "Object contains executable methods 'fill' and 'request'."
+  },
+  {
+    "_id": "62ece4982e6aefcf4aabbd62",
+    "name": "_replace_url_args",
+    "project": "SEED-platform/py-seed",
+    "docstring": "Replace any custom string URL items with values in args"
+  },
+  {
+    "_id": "6306292252e177c0ba469f11",
+    "name": "format_dt",
+    "project": "jaywink/federation",
+    "docstring": "Format a datetime in the way that D* nodes expect."
+  },
+  {
+    "_id": "62b463283879012d1948153d",
+    "name": "match_pubdate",
+    "project": "scieloorg/packtools",
+    "docstring": "Returns the first match in the pubdate_xpaths list"
+  },
+  {
+    "_id": "62e60ed4d76274f8a4026da0",
+    "name": "keys",
+    "project": "neo4j/neo4j-python-driver",
+    "docstring": "Return the keys of the record.\n\n:return: list of key names"
+  },
+  {
+    "_id": "62b87af99a0c4fa8b80b3524",
+    "name": "is_run_el",
+    "project": "ynikitenko/lena",
+    "docstring": "Object contains executable method 'run'."
+  },
+  {
+    "_id": "62b8b3d4eb7e40a82d2d110e",
+    "name": "_c_optimizations_ignored",
+    "project": "pexip/os-zope",
+    "docstring": "The opposite of `_c_optimizations_required`."
+  },
+  {
+    "_id": "62e4fb6585ea98643089032b",
+    "name": "parse_version",
+    "project": "pre-commit/pre-commit",
+    "docstring": "poor man's version comparison"
+  },
+  {
+    "_id": "62b8b4baeb7e40a82d2d1136",
+    "name": "_verify",
+    "project": "pexip/os-zope",
+    "docstring": "Verify that *candidate* might correctly provide *iface*.\n\nThis involves:\n\n- Making sure the candidate claims that it provides the\n  interface using ``iface.providedBy`` (unless *tentative* is `True`,\n  in which case this step is skipped). This means that the candidate's class\n  declares that it `implements <zope.interface.implementer>` the interface,\n  or the candidate itself declares that it `provides <zope.interface.provider>`\n  the interface\n\n- Making sure the candidate defines all the necessary methods\n\n- Making sure the methods have the correct signature (to the\n  extent possible)\n\n- Making sure the candidate defines all the necessary attributes\n\n:return bool: Returns a true value if everything that could be\n   checked passed.\n:raises zope.interface.Invalid: If any of the previous\n   conditions does not hold.\n\n.. versionchanged:: 5.0\n    If multiple methods or attributes are invalid, all such errors\n    are collected and reported. Previously, only the first error was reported.\n    As a special case, if only one such error is present, it is raised\n    alone, like before."
+  },
+  {
+    "_id": "62ece4992e6aefcf4aabbd7d",
+    "name": "subprocess_run_helper",
+    "project": "rougier/matplotlib",
+    "docstring": "Run a function in a sub-process.\n\nParameters\n----------\nfunc : function\n    The function to be run.  It must be in a module that is importable.\n*args : str\n    Any additional command line arguments to be passed in\n    the first argument to ``subprocess.run``.\nextra_env : dict[str, str]\n    Any additional environment variables to be set for the subprocess."
+  },
+  {
+    "_id": "63060b1b73426c38ae68ad42",
+    "name": "inject_config",
+    "project": "redhat-openstack/infrared",
+    "docstring": "Set the environment variable for config path, if it is undefined."
+  }
+]
