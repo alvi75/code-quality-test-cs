@@ -1,0 +1,22 @@
+def get_pattern(pattern, strip=True):
+	"""
+	Convert a string to a regex pattern object
+
+    Args:
+            pattern: str or regex pattern object
+            strip: boolean, whether the spaces in the start/end will be stripped
+    Returns:
+            regex pattern object
+	"""
+
+	if isinstance(pattern, six.string_types):
+		pattern = re.compile(pattern)
+
+	elif not isinstance(pattern, re.Pattern):
+		raise TypeError("pattern must be a string or a compiled regex pattern")
+
+	if strip:
+		return pattern.strip()
+
+	else:
+		return pattern
