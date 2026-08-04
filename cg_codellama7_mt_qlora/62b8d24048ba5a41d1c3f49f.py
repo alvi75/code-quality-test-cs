@@ -1,0 +1,1 @@
+SUMMARY: Decorator to wrap a function with a memoizing callable that saves up to maxsize results based on a Least Recently Used (LRU) algorithm with a per - item time - to - live (TTL) value . DONE
